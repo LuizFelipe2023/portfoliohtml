@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio do Luiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        footer.footer {
+            background-color: #f8f9fa;
+            padding: 1rem 0;
+            text-align: center;
+            border-top: 1px solid #dee2e6;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0 d-flex justify-content-end gap-4 w-100">
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="index.html">Sobre Mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="projetos.html">Meus Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div style="margin-top: 75px;"></div>
+
+    <div class="container py-5 mt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-4">
+                <h1 class="display-5 fw-bold">Olá, eu sou <span class="text-primary">Luiz Felipe Frois Neves</span></h1>
+                <p class="lead">Tenho 25 anos e atuo como desenvolvedor há 1 ano e meio com foco em tecnologias modernas
+                    do ecossistema web.</p>
+                <p class="text-muted">Atualmente estudo e aprimoro meus conhecimentos em <strong>Docker</strong> e
+                    <strong>Livewire</strong> para desenvolver aplicações dinâmicas e escaláveis.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="imgs/profile.jpg" alt="Luiz Felipe" class="img-fluid rounded-circle shadow-sm"
+                    style="max-width: 250px;">
+            </div>
+        </div>
+
+        <hr class="my-5">
+
+        <div class="row">
+            <div class="col-12">
+                <h2 class="fw-semibold text-primary mb-4">Minhas habilidades</h2>
+                <div class="row g-3">
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="border rounded p-3 bg-light text-center shadow-sm h-100">
+                            <i class="fab fa-laravel fa-2x text-danger mb-2"></i>
+                            <div class="fw-medium">Laravel</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="border rounded p-3 bg-light text-center shadow-sm h-100">
+                            <i class="fab fa-php fa-2x text-primary mb-2"></i>
+                            <div class="fw-medium">PHP</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="border rounded p-3 bg-light text-center shadow-sm h-100">
+                            <i class="fab fa-js fa-2x text-warning mb-2"></i>
+                            <div class="fw-medium">JavaScript</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="border rounded p-3 bg-light text-center shadow-sm h-100">
+                            <i class="fab fa-html5 fa-2x text-danger mb-2"></i>
+                            <div class="fw-medium">HTML</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="border rounded p-3 bg-light text-center shadow-sm h-100">
+                            <i class="fab fa-css3-alt fa-2x text-primary mb-2"></i>
+                            <div class="fw-medium">CSS</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="border rounded p-3 bg-light text-center shadow-sm h-100">
+                            <i class="fab fa-bootstrap fa-2x text-purple mb-2"></i>
+                            <div class="fw-medium">Bootstrap</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="border rounded p-3 bg-light text-center shadow-sm h-100">
+                            <i class="fab fa-git-alt fa-2x text-danger mb-2"></i>
+                            <div class="fw-medium">Git</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="border rounded p-3 bg-light text-center shadow-sm h-100">
+                            <i class="fas fa-bolt fa-2x text-warning mb-2"></i>
+                            <div class="fw-medium">Livewire (aprendizado)</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="border rounded p-3 bg-light text-center shadow-sm h-100">
+                            <i class="fab fa-docker fa-2x text-info mb-2"></i>
+                            <div class="fw-medium">Docker (aprendizado)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto bg-light border-top">
+        <div class="container py-2">
+            <div class="row">
+                <div class="col-md-4 mb-2">
+                    <h6 class="fw-bold text-primary mb-1">Luiz Felipe Frois Neves</h6>
+                    <p class="text-muted small mb-0">Soluções inteligentes para o seu negócio.</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <h6 class="text-uppercase fw-semibold mb-1">Links</h6>
+                    <ul class="list-unstyled mb-0 small">
+                        <li><a href="index.html" class="text-decoration-none text-muted">Sobre Mim</a></li>
+                        <li><a href="contato.html" class="text-decoration-none text-muted">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <h6 class="text-uppercase fw-semibold mb-1">Redes Sociais</h6>
+                    <div class="small">
+                        <a href="#" class="text-muted me-2"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-muted me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-muted me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-muted"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-2">
+            <div class="text-center text-muted small">
+                &copy; 2025 Luiz Felipe Frois Neves. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
